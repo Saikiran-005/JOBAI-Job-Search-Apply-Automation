@@ -1,0 +1,27 @@
+[15:33:47] invalid pdf header: b'pip i'
+[15:33:47] EOF marker not found
+[15:33:47] Using resume.txt; resume.pdf is not a readable text-based PDF.
+[15:33:48] [naukri] starting (DRY_RUN=True)
+[15:34:07] [naukri] Data Analyst: 5 jobs
+[15:34:14] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:34:15] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:34:15] [naukri] error on 'Data Verification Analyst': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1wUbTpUq6d927EgwiBX'}
+[15:34:29] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:34:33] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:34:33] [naukri] error on 'Power Bi Internship _ For Freshers': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1wVfVvxqjNsNeryHMFi'}
+[15:34:47] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:34:48] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:34:48] [naukri] error on 'Biotech Researcher - South Zone': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1wWzPkYwZNnYztZURiX'}
+[15:34:58] [naukri] Power BI Developer: 5 jobs
+[15:35:26] [naukri] BI Analyst: 5 jobs
+[15:35:31] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:35:32] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:35:32] [naukri] error on 'Power Bi Internship _ For Freshers': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1waFYB1LDMdQdzty25E'}
+[15:35:47] [naukri] Data Scientist: 5 jobs
+[15:35:58] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:35:59] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:35:59] [naukri] error on 'Postdoctoral Researcher/ Predoctoral Research Associate': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1wcFuoCvD4hXDFFJDNX'}
+[15:36:09] [naukri] QA Engineer: 5 jobs
+[15:36:14] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[15:36:14] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+[15:36:14] [naukri] error on 'Software Tester': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg1wdR3zvfswBezKg1iLy'}

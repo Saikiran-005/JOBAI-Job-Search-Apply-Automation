@@ -1,0 +1,16 @@
+selenium
+python-dotenv
+pypdf
+reportlab
+pydantic
+langchain-core
+langchain-community
+langchain-anthropic
+langchain-openai
+anthropic
+numpy
+openai
+playwright
+rich
+sentence-transformers
+tenacity

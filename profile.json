@@ -1,0 +1,109 @@
+{
+  "name": "V. Saikiran Achari",
+  "location": "Hyderabad, India",
+  "email": "saikiran347817@gmail.com",
+  "phone": "+91 7075594486",
+  "links": {
+    "LinkedIn": "linkedin.com/in/sai-kiran"
+  },
+  "level": "Entry-level",
+  "target_roles": [
+    "QA Engineer",
+    "Software Tester",
+    "Automation Tester"
+  ],
+  "title_keywords": [
+    "QA",
+    "Quality Assurance",
+    "Tester",
+    "Testing"
+  ],
+  "default_summary": "Computer Science (Data Science) graduate with a foundation in manual testing, Selenium automation using Python, and SQL-based data validation.",
+  "skills": {
+    "Manual Testing": [
+      "SDLC",
+      "STLC",
+      "Test Scenarios",
+      "Test Case Design",
+      "Functional Testing",
+      "Smoke Testing",
+      "Sanity Testing",
+      "Regression Testing",
+      "Bug Reporting"
+    ],
+    "Automation Testing": [
+      "Selenium WebDriver",
+      "Python",
+      "XPath",
+      "CSS Selectors",
+      "Locators",
+      "Dropdowns",
+      "Alerts",
+      "Waits"
+    ],
+    "Programming and Databases": [
+      "Python",
+      "Object-Oriented Programming",
+      "File Handling",
+      "C#",
+      "C",
+      "SQL",
+      "Oracle",
+      "PL/SQL",
+      "Joins",
+      "CTEs",
+      "Subqueries",
+      "Window Functions"
+    ],
+    "Data and Tools": [
+      "Git",
+      "GitHub",
+      "Power BI",
+      "Tableau",
+      "Pandas",
+      "NumPy",
+      "OpenCV",
+      "Deep Learning"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Healthcare Analytics Dashboard",
+      "tools": [
+        "Power BI"
+      ],
+      "bullets": [
+        "Cleaned and analyzed more than 13,000 records and created DAX measures for a healthcare analytics dashboard."
+      ]
+    },
+    {
+      "name": "HR Analytics Tableau",
+      "tools": [
+        "Tableau"
+      ],
+      "bullets": [
+        "Analyzed 5,000 records and created KPI visualizations, including attrition rate."
+      ]
+    },
+    {
+      "name": "Face Mask Detection",
+      "tools": [
+        "Python",
+        "OpenCV",
+        "Deep Learning"
+      ],
+      "bullets": [
+        "Created a face mask detection project using Python, OpenCV, and deep learning."
+      ]
+    }
+  ],
+  "education": [
+    "B.Tech in Computer Science (Data Science), 2022-2026; CGPA 6.9"
+  ],
+  "experience": [],
+  "certifications": [],
+  "answers": {
+    "experience": "Fresher",
+    "notice period": "Immediate"
+  }
+}
