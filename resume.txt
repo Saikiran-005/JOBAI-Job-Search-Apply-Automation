@@ -1,0 +1,30 @@
+def rewrite_resume_for_job(job_title, job_desc=""):
+    tailored = f"""
+SAIKIRAN ACHARI VADLA - {job_title}
++91 7075594486 | saikiran347817@gmail.com | linkedin.com/in/sai-kiran
+Seeking entry-level QA Engineer role.
+
+SUMMARY FOR {job_title}:
+Computer Science (Data Science) graduate with foundation in manual testing (test case design, defect reporting, regression testing), 
+automation testing using Selenium with Python, and SQL-based data validation.
+Validated 13,000+ records in Healthcare Dashboard project.
+
+TECHNICAL SKILLS MATCHED FOR {job_title}:
+Manual: SDLC, STLC, Test Scenarios, Test Case Design, Functional, Smoke, Sanity, Regression, Bug Reporting
+Automation: Selenium WebDriver Python, Locators (XPath, CSS, ID, Name), find_element, dropdowns, alerts, waits
+Programming: Python (OOP, File Handling), C#, C basics
+Database: SQL Oracle, PL/SQL, Joins, CTEs, Subqueries, Window Functions for backend validation
+Tools: Git, GitHub, Power BI, Tableau, Pandas, NumPy
+
+PROJECTS:
+- Healthcare Analytics Dashboard Power BI - Cleaned 13k records, DAX measures
+- HR Analytics Tableau - 5000 records, KPIs attrition rate
+- Face Mask Detection Python OpenCV Deep Learning
+
+EDUCATION: B.Tech CSE Data Science 2022-2026 CGPA 6.9
+CORE: Test Case Design | Defect Reporting | Functional & Regression | Selenium | SQL Data Validation
+"""
+    fname = f"QA_{job_title.replace(' ', '_')[:25]}_{datetime.datetime.now().strftime('%H%M%S')}.txt"
+    fpath = os.path.join(RESUME_FOLDER, fname)
+    with open(fpath, "w", encoding="utf-8") as f: f.write(tailored)
+    return fpath
